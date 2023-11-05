@@ -1,3 +1,5 @@
 import { main } from "./main";
 
-main({ log: console.log });
+const result = main();
+
+console.log(result);
